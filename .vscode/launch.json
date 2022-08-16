@@ -1,0 +1,148 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch GeneradorBoletoSimple",
+      "request": "launch",
+      "mainClass": "es.dsrroma.school.java.desafio1.video01_01.GeneradorBoletoSimple",
+      "projectName": "desafio_programacion_java_2498412_4025d3f0"
+    },
+    {
+      "type": "java",
+      "name": "Launch GeneradorBoletoSimple2",
+      "request": "launch",
+      "mainClass": "es.dsrroma.school.java.desafio1.video01_01.GeneradorBoletoSimple2",
+      "projectName": "desafio_programacion_java_2498412_4025d3f0"
+    },
+    {
+      "type": "java",
+      "name": "Launch GeneradorBoletoReintegro",
+      "request": "launch",
+      "mainClass": "es.dsrroma.school.java.desafio1.video01_02.GeneradorBoletoReintegro",
+      "projectName": "desafio_programacion_java_2498412_4025d3f0"
+    },
+    {
+      "type": "java",
+      "name": "Launch GeneradorTableroBingo",
+      "request": "launch",
+      "mainClass": "es.dsrroma.school.java.desafio1.video01_03.GeneradorTableroBingo",
+      "projectName": "desafio_programacion_java_2498412_4025d3f0"
+    },
+    {
+      "type": "java",
+      "name": "Launch SorteoNavidad",
+      "request": "launch",
+      "mainClass": "es.dsrroma.school.java.desafio1.video01_04.SorteoNavidad",
+      "projectName": "desafio_programacion_java_2498412_4025d3f0"
+    },
+    {
+      "type": "java",
+      "name": "Launch ValidadorBoletoSimple",
+      "request": "launch",
+      "mainClass": "es.dsrroma.school.java.desafio1.video01_05.ValidadorBoletoSimple",
+      "projectName": "desafio_programacion_java_2498412_4025d3f0"
+    },
+    {
+      "type": "java",
+      "name": "Launch ValidadorBoletoReintegro",
+      "request": "launch",
+      "mainClass": "es.dsrroma.school.java.desafio1.video01_06.ValidadorBoletoReintegro",
+      "projectName": "desafio_programacion_java_2498412_4025d3f0"
+    },
+    {
+      "type": "java",
+      "name": "Launch SorteoBingo",
+      "request": "launch",
+      "mainClass": "es.dsrroma.school.java.desafio1.video01_07.SorteoBingo",
+      "projectName": "desafio_programacion_java_2498412_4025d3f0"
+    },
+    {
+      "type": "java",
+      "name": "Launch FormateadorFechas",
+      "request": "launch",
+      "mainClass": "es.dsrroma.school.java.desafio1.video01_08.FormateadorFechas",
+      "projectName": "desafio_programacion_java_2498412_4025d3f0"
+    },
+    {
+      "type": "java",
+      "name": "Launch EdadExacta",
+      "request": "launch",
+      "mainClass": "es.dsrroma.school.java.desafio1.video01_09.EdadExacta",
+      "projectName": "desafio_programacion_java_2498412_4025d3f0"
+    },
+    {
+      "type": "java",
+      "name": "Launch ContadorLetras",
+      "request": "launch",
+      "args": ["patata"],
+      "mainClass": "es.dsrroma.school.java.desafio1.video01_10.ContadorLetras",
+      "projectName": "desafio_programacion_java_2498412_4025d3f0"
+    },
+    {
+      "type": "java",
+      "name": "Launch RellenarMatriz",
+      "request": "launch",
+      "mainClass": "es.dsrroma.school.java.desafio1.video01_11.RellenarMatriz",
+      "projectName": "desafio_programacion_java_2498412_4025d3f0"
+    },
+    {
+      "type": "java",
+      "name": "Launch SumarMatrices",
+      "request": "launch",
+      "mainClass": "es.dsrroma.school.java.desafio1.video01_12.SumarMatrices",
+      "projectName": "desafio_programacion_java_2498412_4025d3f0"
+    },
+    {
+      "type": "java",
+      "name": "Launch MultiplicarMatrices",
+      "request": "launch",
+      "mainClass": "es.dsrroma.school.java.desafio1.video01_13.MultiplicarMatrices",
+      "projectName": "desafio_programacion_java_2498412_4025d3f0"
+    },
+    {
+      "type": "java",
+      "name": "Launch CalcularMinimo",
+      "request": "launch",
+      "mainClass": "es.dsrroma.school.java.desafio1.video01_14.CalcularMinimo",
+      "projectName": "desafio_programacion_java_2498412_4025d3f0"
+    },
+    {
+      "type": "java",
+      "name": "Launch CalcularMedia",
+      "request": "launch",
+      "mainClass": "es.dsrroma.school.java.desafio1.video01_15.CalcularMedia",
+      "projectName": "desafio_programacion_java_2498412_4025d3f0"
+    },
+    {
+      "type": "java",
+      "name": "Launch BuscarSinOrden",
+      "request": "launch",
+      "mainClass": "es.dsrroma.school.java.desafio1.video01_16.BuscarSinOrden",
+      "projectName": "desafio_programacion_java_2498412_4025d3f0"
+    },
+    {
+      "type": "java",
+      "name": "Launch BuscarConOrden",
+      "request": "launch",
+      "mainClass": "es.dsrroma.school.java.desafio1.video01_17.BuscarConOrden",
+      "projectName": "desafio_programacion_java_2498412_4025d3f0"
+    },
+    {
+      "type": "java",
+      "name": "Launch EsHoraDePlanchar",
+      "request": "launch",
+      "mainClass": "es.dsrroma.school.java.desafio1.video01_18.EsHoraDePlanchar",
+      "projectName": "desafio_programacion_java_2498412_4025d3f0"
+    }
+  ]
+}
