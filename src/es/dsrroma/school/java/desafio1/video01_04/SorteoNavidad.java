@@ -10,7 +10,8 @@ import java.util.Random;
 public class SorteoNavidad {
 	private static final int MIN_NUM = 0;
 	private static final int MAX_NUM = 99999;
-	private static final int DIG = (int) Math.floor(Math.log10(MAX_NUM) + 1);
+	private static final int DIG = 
+		(int) Math.floor(Math.log10(MAX_NUM) + 1);
 	
 	private static final Random R = new Random();
 	
@@ -56,7 +57,8 @@ public class SorteoNavidad {
 		}
 		tablaPremios.entrySet().stream().sorted(
 				new Comparator<Map.Entry<Integer, TipoPremio>>() {
-					   public int compare(Map.Entry<Integer, TipoPremio> o1, Map.Entry<Integer, TipoPremio> o2) {
+					   	public int compare(Map.Entry<Integer, TipoPremio> o1, 
+						 		Map.Entry<Integer, TipoPremio> o2) {
 					        return o1.getValue().compareTo(o2.getValue());
 					    }
 				}
@@ -66,7 +68,8 @@ public class SorteoNavidad {
 	}
 	
 	private String formateaLinea(Integer num, TipoPremio premio) {
-		return String.format("%0" + DIG + "d", num) + ": " + premio.getPremioPorEuro() + "€";
+		return String.format("%0" + DIG + "d", num) + ": " 
+			+ premio.getPremioPorEuro() + "€";
 	}
 	
 	private String formateaLinea(Map.Entry<Integer, TipoPremio> entry) {
