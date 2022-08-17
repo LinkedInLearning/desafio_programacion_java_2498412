@@ -11,7 +11,8 @@ public class ValidadorBoletoSimple {
 		int aciertos = 0;
 		// convertimos el array a lista para poder usar el contains
 		List<Integer> listaSorteo = new ArrayList<Integer>();
-		Collections.addAll(listaSorteo, Arrays.stream(sorteo).boxed().toArray(Integer[]::new));
+		Collections.addAll(listaSorteo, 
+			Arrays.stream(sorteo).boxed().toArray(Integer[]::new));
 		
 		for (int nB : boleto) {
 			if (listaSorteo.contains(nB)) {
@@ -22,7 +23,8 @@ public class ValidadorBoletoSimple {
 		return aciertos;
 	}
 	
-	public static int validarBoletoSinConversion(int[] boleto, int[] sorteo) {
+	public static int validarBoletoSinConversion(int[] boleto, 
+			int[] sorteo) {
 		int aciertos = 0;
 		int i = 0;
 		
