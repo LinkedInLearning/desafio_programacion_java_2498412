@@ -4,7 +4,8 @@ public class SumarMatrices {
 	
 	public static int[][] sumar(int[][] m1, int[][] m2) {
 		if (m1.length != m2.length || m1[0].length != m2[0].length) {
-			throw new IllegalArgumentException("Las dos matrices a sumar deben tener las mismas dimensiones");
+			throw new IllegalArgumentException(
+				"Las dos matrices a sumar deben tener las mismas dimensiones");
 		}
 		int[][] suma = new int[m1.length][m1[0].length];
 		for (int i = 0; i < m1.length; i ++) {
