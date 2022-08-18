@@ -15,7 +15,8 @@ public class FormateadorFechas {
 				String ahora = sdf.format(new Date());
 				System.out.println("Fecha actual: " + ahora);
 			} catch (IllegalArgumentException iae) {
-				System.err.println(String.format("El patrón indicado '%s' no es válido.", patron));
+				System.err.println(String.format(
+					"El patrón indicado '%s' no es válido.", patron));
 			}
 		}
 	}
