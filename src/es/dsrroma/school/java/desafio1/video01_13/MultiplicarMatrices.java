@@ -9,7 +9,8 @@ public class MultiplicarMatrices {
 		int cols2 = m2[0].length;
 		
 		if (cols1 != filas2) {
-			throw new IllegalArgumentException("El número de columnas de la primera matriz "
+			throw new IllegalArgumentException(
+				"El número de columnas de la primera matriz "
 					+ "debe coincidir con el número de filas de la segunda");
 		}
 		int[][] producto = new int[filas1][cols2];
@@ -39,5 +40,4 @@ public class MultiplicarMatrices {
 			System.out.println();
 		}
 	}
-
 }
