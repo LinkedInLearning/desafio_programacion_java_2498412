@@ -14,7 +14,8 @@ public class RellenarMatriz {
 			}
 			pintarMatriz(matriz);
 		} catch (IndexOutOfBoundsException | NumberFormatException e) {
-			System.err.println("Necesito al menos dos argumentos, numéricos, de entrada.");			
+			System.err.println(
+				"Necesito al menos dos argumentos, numéricos, de entrada.");			
 		}
 	}
 
@@ -26,5 +27,4 @@ public class RellenarMatriz {
 			System.out.println();
 		}
 	}
-
 }
