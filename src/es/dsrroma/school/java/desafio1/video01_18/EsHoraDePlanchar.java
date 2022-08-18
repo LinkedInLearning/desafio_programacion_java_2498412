@@ -9,14 +9,14 @@ public class EsHoraDePlanchar {
 			case SATURDAY, SUNDAY -> Tarifa.VALLE;
 			default -> tarifaSegunHora(momento);
 		};
-		
 	}
 
 	private static Tarifa tarifaSegunHora(LocalDateTime momento) {
 		int hora = momento.getHour();
 		if (hora < 8) {
 			return Tarifa.VALLE;
-		} else if ((hora >= 10 && hora < 14) || (hora >= 18 && hora < 22)) {
+		} else if ((hora >= 10 && hora < 14) || 
+				(hora >= 18 && hora < 22)) {
 			return Tarifa.PUNTA;
 		} else {
 			return Tarifa.LLANO;
@@ -28,11 +28,13 @@ public class EsHoraDePlanchar {
 		System.out.println(esHoraDePlanchar(ahora));
 		
 		for (int i = 0; i < 24; i ++) {
-			System.out.println(i + "h: " + esHoraDePlanchar(LocalDateTime.now().withHour(i)));
+			System.out.println(i + "h: " 
+				+ esHoraDePlanchar(LocalDateTime.now().withHour(i)));
 		}
 		for (int i = 0; i < 7; i ++) {
 			LocalDateTime dia = LocalDateTime.now().minusDays(i);
-			System.out.println(dia.getDayOfWeek() + ": " + esHoraDePlanchar(dia));
+			System.out.println(dia.getDayOfWeek() + ": " 
+				+ esHoraDePlanchar(dia));
 		}
 	}
 
