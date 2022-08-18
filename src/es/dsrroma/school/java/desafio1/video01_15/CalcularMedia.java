@@ -26,7 +26,8 @@ public class CalcularMedia {
 		if (media.isPresent()) {
 			return media.getAsDouble();
 		}
-		throw new IllegalStateException("Error no esperado, no hay media");
+		throw new IllegalStateException(
+			"Error no esperado, no hay media");
 	}
 
 	public static void main(String[] args) {
