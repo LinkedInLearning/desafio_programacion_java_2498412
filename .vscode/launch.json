@@ -92,6 +92,7 @@
       "type": "java",
       "name": "Launch RellenarMatriz",
       "request": "launch",
+      "args": ["3", "6"],
       "mainClass": "es.dsrroma.school.java.desafio1.video01_11.RellenarMatriz",
       "projectName": "desafio_programacion_java_2498412_4025d3f0"
     },
