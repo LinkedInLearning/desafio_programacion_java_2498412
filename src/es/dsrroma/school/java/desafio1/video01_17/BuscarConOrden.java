@@ -8,7 +8,8 @@ public class BuscarConOrden {
 		return busquedaBinariaAux(lista, elem, 0, lista.length-1);
 	}
 	
-	private static boolean busquedaBinariaAux(int[] lista, int elem, int ini, int fin) {
+	private static boolean busquedaBinariaAux(
+			int[] lista, int elem, int ini, int fin) {
 		int centro = Math.floorDiv(fin - ini, 2) + ini;
 		int valorCentral = lista[centro];
 		if (valorCentral == elem) {
@@ -31,5 +32,4 @@ public class BuscarConOrden {
 		System.out.println(busquedaBinaria(lista, 7));
 		System.out.println(busquedaBinaria(lista, 1));
 	}
-
 }
