@@ -5,7 +5,7 @@ Este es el repositorio del curso de LinkedIn Learning `[Desafío de programació
 
 Consulta el archivo Readme en la rama main para obtener instrucciones e información actualizadas.
 
-DESCRIPCIÓN DEL CURSO
+Refuerza tus conocimientos de programación en Java y mejorar tu pensamiento lógico-computacional a través de la solución de ejercicios prácticos que te supondrán un verdadero reto y te permitirá refrescar tus conocimientos. Durante el contenido se te planteará resolver una serie de minidesafíos de programación, y por cada reto y se te dará posteriormente la solución óptima. Los problemas que se se muestran son los típicos que podrías encontrar en tu práctica diaria, para que te sean útiles, y van desde un nivel iniciación-básico a alguno más avanzado.
 
 ## Instrucciones
 Este repositorio tiene ramas (branches) para cada uno de los vídeos del curso. Puedes usar el menú emergente de la rama en GitHub para cambiar a una rama específica y echar un vistazo al curso en esa etapa, o puedes añadir `/tree/nombre_de_la_rama` a la URL para ir a la rama a la que quieres acceder.
