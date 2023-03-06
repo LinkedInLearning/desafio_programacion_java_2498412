@@ -1,7 +1,7 @@
 # Desafío de programación: Java		
 Este es el repositorio del curso de LinkedIn Learning `[Desafío de programación: Java]`. El curso completo está disponible en [LinkedIn Learning][lil-course-url].
 
-![2498412_es_ES_TN](https://user-images.githubusercontent.com/61017085/200606640-4533d13d-92fc-4d03-a81b-485746fc4170.jpg)
+![COURSENAME][lil-thumbnail-url] 
 
 Consulta el archivo Readme en la rama main para obtener instrucciones e información actualizadas.
 
@@ -25,4 +25,4 @@ Echa un vistazo a mis otros cursos en [LinkedIn Learning](https://www.linkedin.c
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 [lil-course-url]: https://www.linkedin.com/learning/desafio-de-programacion-java
-[lil-thumbnail-url]: https://cdn.lynda.com/course/2875095/2875095-1615224395432-16x9.jpg
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/C4D0DAQH2tEpDQ5GX6Q/learning-public-crop_675_1200/0/1668096644384?e=2147483647&v=beta&t=hopWc_U4D5D1qKrsHpe3vQH-s0jwjMGkm6ysMxjpSSo
